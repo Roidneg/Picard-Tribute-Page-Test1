@@ -1,0 +1,66 @@
+/* imported fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&family=Roboto:ital,wght@1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Ranchers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Piedra&family=Ranchers&display=swap');
+
+#image{
+  max-width:100%;
+  height:auto;
+  display:block;
+}
+.center{
+  height:300px;
+  width:auto;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+}
+#title{
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  font-family:Roboto;
+}
+#subtitle{
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  font-family:Piazzolla;
+}
+#img-caption{
+  text-align:center;
+  font-size:12px;
+  font-family:Roboto;
+}
+
+header{
+  margin-top:8vw;
+}
+/*Tribute Information Section*/
+#tribute-info{
+  font-family:Roboto;
+}
+
+#tribute-info-2{
+  font-family:Chilanka;
+}
+#tribute-info-3{
+  font-family:Piedra;
+}
+
+#tribute-link{
+  font-family:Piedra;
+}
+/*Youtbe Video Code Section*/
+.resp-iframe{
+  display:block;
+  width:100%; /* RESPONSIVE WIDTH */
+  max-width: 600px;
+  height:500px;
+  float:left; /*this is how I was able to get the video into the texts as you see*/
+  overflow:hidden; /* EDIT TO HIDDEN FOR NO SCROLLBAR */
+  margin-right:10px; /*This right here is how I pushed the text away from the video.*/
+}
